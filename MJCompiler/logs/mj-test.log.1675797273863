@@ -1,0 +1,147 @@
+INFO  19:46:29,026 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\test301.mj
+INFO  19:46:29,045 - #2 program
+INFO  19:46:29,045 - #17 test301
+INFO  19:46:29,045 - #3 {
+INFO  19:46:29,046 - #13 void
+INFO  19:46:29,046 - #17 main
+INFO  19:46:29,046 - #6 (
+INFO  19:46:29,046 - #7 )
+INFO  19:46:29,047 - #17 int
+INFO  19:46:29,047 - #17 bodovi
+INFO  19:46:29,048 - #5 ;
+INFO  19:46:29,049 - #17 bool
+INFO  19:46:29,049 - #17 bt
+INFO  19:46:29,049 - #5 ;
+INFO  19:46:29,049 - #3 {
+INFO  19:46:29,049 - #9 print
+INFO  19:46:29,050 - #6 (
+INFO  19:46:29,050 - #16 3
+INFO  19:46:29,051 - #7 )
+INFO  19:46:29,053 - #5 ;
+INFO  19:46:29,053 - #9 print
+INFO  19:46:29,053 - #6 (
+INFO  19:46:29,054 - #15 c
+INFO  19:46:29,054 - #7 )
+INFO  19:46:29,054 - #5 ;
+INFO  19:46:29,054 - #9 print
+INFO  19:46:29,054 - #6 (
+INFO  19:46:29,055 - #14 true
+INFO  19:46:29,055 - #7 )
+INFO  19:46:29,055 - #5 ;
+INFO  19:46:29,055 - #4 }
+INFO  19:46:29,055 - #4 }
+INFO  19:46:29,059 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoDeclList(
+  ) [NoDeclList]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidType(
+       main
+      ) [VoidType]
+      NoFormPars(
+      ) [NoFormPars]
+      YesVarDecMul(
+        YesVarDecMul(
+          NoVarDec(
+          ) [NoVarDec]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarList(
+              VarAssign(
+               bodovi
+                NoSqrBrackets(
+                ) [NoSqrBrackets]
+              ) [VarAssign]
+            ) [OneVarList]
+          ) [VarDeclaration]
+        ) [YesVarDecMul]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarList(
+            VarAssign(
+             bt
+              NoSqrBrackets(
+              ) [NoSqrBrackets]
+            ) [VarAssign]
+          ) [OneVarList]
+        ) [VarDeclaration]
+      ) [YesVarDecMul]
+      StatementDeclListt(
+        StatementDeclListt(
+          StatementDeclListt(
+            NoStatementDecl(
+            ) [NoStatementDecl]
+            PrintStmt(
+              Expr(
+                NoMinusDecl(
+                ) [NoMinusDecl]
+                Term(
+                  NumFactor(
+                   3
+                  ) [NumFactor]
+                  NoFactorRpt(
+                  ) [NoFactorRpt]
+                ) [Term]
+                NoAddopRpt(
+                ) [NoAddopRpt]
+              ) [Expr]
+              NoNumConstt(
+              ) [NoNumConstt]
+            ) [PrintStmt]
+          ) [StatementDeclListt]
+          PrintStmt(
+            Expr(
+              NoMinusDecl(
+              ) [NoMinusDecl]
+              Term(
+                CharFactor(
+                 c
+                ) [CharFactor]
+                NoFactorRpt(
+                ) [NoFactorRpt]
+              ) [Term]
+              NoAddopRpt(
+              ) [NoAddopRpt]
+            ) [Expr]
+            NoNumConstt(
+            ) [NoNumConstt]
+          ) [PrintStmt]
+        ) [StatementDeclListt]
+        PrintStmt(
+          Expr(
+            NoMinusDecl(
+            ) [NoMinusDecl]
+            Term(
+              BoolFactor(
+               true
+              ) [BoolFactor]
+              NoFactorRpt(
+              ) [NoFactorRpt]
+            ) [Term]
+            NoAddopRpt(
+            ) [NoAddopRpt]
+          ) [Expr]
+          NoNumConstt(
+          ) [NoNumConstt]
+        ) [PrintStmt]
+      ) [StatementDeclListt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:46:29,059 - ===================================
+INFO  19:46:29,060 - Nadjena funkcija main na liniji 7
+INFO  19:46:29,060 - Nadjena varijabla bodovi na liniji 8
+INFO  19:46:29,060 - Nadjena varijabla bt na liniji 9
+INFO  19:46:29,060 -  Konstanti ima = 0
+INFO  19:46:29,061 -  Deklarisanih promenljivih ima = 2
+INFO  19:46:29,061 - ===================================
+INFO  19:46:29,063 - Parsiranje uspesno zavrseno!

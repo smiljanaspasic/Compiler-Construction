@@ -1,0 +1,105 @@
+INFO  08:39:54,290 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  08:39:54,306 - #2 program
+INFO  08:39:54,306 - #15 nekiprogram
+INFO  08:39:54,306 - #24 const
+INFO  08:39:54,306 - #15 bool
+INFO  08:39:54,306 - #15 c
+INFO  08:39:54,307 - #12 =
+INFO  08:39:54,307 - #27 false
+INFO  08:39:54,307 - #8 ,
+INFO  08:39:54,308 - #15 d
+INFO  08:39:54,308 - #12 =
+INFO  08:39:54,308 - #27 true
+INFO  08:39:54,308 - #5 ;
+INFO  08:39:54,308 - #15 int
+INFO  08:39:54,309 - #15 g
+INFO  08:39:54,309 - #31 [
+INFO  08:39:54,309 - #30 ]
+INFO  08:39:54,309 - #5 ;
+INFO  08:39:54,310 - #24 const
+INFO  08:39:54,310 - #15 char
+INFO  08:39:54,310 - #15 character
+INFO  08:39:54,310 - #12 =
+INFO  08:39:54,311 - #28 s
+INFO  08:39:54,312 - #5 ;
+INFO  08:39:54,312 - #3 {
+INFO  08:39:54,312 - #15 void
+INFO  08:39:54,312 - #15 main
+INFO  08:39:54,312 - #6 (
+INFO  08:39:54,312 - #7 )
+INFO  08:39:54,313 - #3 {
+INFO  08:39:54,313 - #4 }
+INFO  08:39:54,313 - #4 }
+INFO  08:39:54,314 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  DeclListConst(
+    DeclListVar(
+      DeclListConst(
+        NoDeclList(
+        ) [NoDeclList]
+        ConstsDeclNext(
+          Type(
+           bool
+          ) [Type]
+          MultipleConstList(
+            OneConstList(
+              ConstAssign(
+               c
+                BoolConstDecl(
+                ) [BoolConstDecl]
+              ) [ConstAssign]
+            ) [OneConstList]
+            ConstAssign(
+             d
+              BoolConstDecl(
+              ) [BoolConstDecl]
+            ) [ConstAssign]
+          ) [MultipleConstList]
+        ) [ConstsDeclNext]
+      ) [DeclListConst]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneVarList(
+          VarAssign(
+           g
+            SqrBrackets(
+            ) [SqrBrackets]
+          ) [VarAssign]
+        ) [OneVarList]
+      ) [VarDecl]
+    ) [DeclListVar]
+    ConstsDeclNext(
+      Type(
+       char
+      ) [Type]
+      OneConstList(
+        ConstAssign(
+         character
+          CharConstDecl(
+          ) [CharConstDecl]
+        ) [ConstAssign]
+      ) [OneConstList]
+    ) [ConstsDeclNext]
+  ) [DeclListConst]
+  MethodDecl(
+    NonVoidType(
+      Type(
+       void
+      ) [Type]
+    ) [NonVoidType]
+   main
+    NoFormPars(
+    ) [NoFormPars]
+    NoVarDec(
+    ) [NoVarDec]
+    NoStmt(
+    ) [NoStmt]
+  ) [MethodDecl]
+) [Program]
+INFO  08:39:54,315 - ===================================
+INFO  08:39:54,316 -  Deklarisanih promenljivih ima = 1
+INFO  08:39:54,316 -  Deklarisanih konstanti ima = 3

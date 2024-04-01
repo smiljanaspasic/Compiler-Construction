@@ -1,0 +1,58 @@
+INFO  04:17:04,253 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\neuspesan_primer.mj
+INFO  04:17:04,277 - #2 program
+INFO  04:17:04,277 - #17 nekiprogram
+INFO  04:17:04,277 - #26 const
+INFO  04:17:04,278 - #17 bool
+INFO  04:17:04,278 - #17 c
+INFO  04:17:04,278 - #12 =
+INFO  04:17:04,278 - #14 false
+INFO  04:17:04,278 - #8 ,
+INFO  04:17:04,279 - #17 d
+INFO  04:17:04,279 - #12 =
+INFO  04:17:04,279 - #14 true
+INFO  04:17:04,279 - #5 ;
+INFO  04:17:04,279 - #17 int
+INFO  04:17:04,279 - #17 g
+INFO  04:17:04,279 - #31 [
+INFO  04:17:04,279 - #30 ]
+INFO  04:17:04,279 - #5 ;
+INFO  04:17:04,280 - #17 int
+INFO  04:17:04,280 - #17 m
+INFO  04:17:04,280 - #5 ;
+INFO  04:17:04,281 - #17 int
+INFO  04:17:04,281 - #17 s
+INFO  04:17:04,281 - #31 [
+INFO  04:17:04,281 - #30 ]
+INFO  04:17:04,282 - #8 ,
+INFO  04:17:04,282 - #8 ,
+ERROR 04:17:04,282 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 7
+INFO  04:17:04,282 - #8 ,
+INFO  04:17:04,282 - #17 k
+INFO  04:17:04,282 - #5 ;
+INFO  04:17:04,282 - #17 char
+INFO  04:17:04,282 - #17 m
+INFO  04:17:04,282 - #45 /
+ERROR 04:17:04,283 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 8
+INFO  04:17:04,283 - #17 s
+INFO  04:17:04,283 - #5 ;
+INFO  04:17:04,283 - #17 int
+INFO  04:17:04,283 - #17 m
+INFO  04:17:04,283 - #5 ;
+INFO  04:17:04,283 - #26 const
+INFO  04:17:04,283 - #17 char
+INFO  04:17:04,283 - #17 character
+INFO  04:17:04,283 - #12 =
+INFO  04:17:04,283 - #15 s
+INFO  04:17:04,283 - #5 ;
+INFO  04:17:04,283 - #3 {
+INFO  04:17:04,283 - #13 void
+INFO  04:17:04,284 - #17 main
+INFO  04:17:04,284 - #6 (
+INFO  04:17:04,284 - #7 )
+INFO  04:17:04,284 - #3 {
+INFO  04:17:04,285 - #13 void
+ERROR 04:17:04,285 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 13
+ERROR 04:17:04,285 - Fatalna greska, parsiranje se ne moze nastavitiizvrsen je oporavak od greske na liniji 13

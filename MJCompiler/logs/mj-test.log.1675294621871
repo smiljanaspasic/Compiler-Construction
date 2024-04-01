@@ -1,0 +1,12 @@
+INFO  21:12:43,958 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  21:12:43,973 - #2 program
+INFO  21:12:43,973 - #15 mojProgram
+INFO  21:12:43,973 - #15 int
+INFO  21:12:43,974 - #15 c
+INFO  21:12:43,975 - #5 ;
+INFO  21:12:43,975 - #3 {
+INFO  21:12:44,391 - #4 }
+INFO  21:12:44,750 - Deklarisana promenljiva c na liniji 1
+INFO  21:12:44,750 - Print calls = 0
+INFO  21:12:44,751 - Generating bytecode file: C:\PP1 domaci\workspace\MJCompiler\test\program.obj
+INFO  21:12:44,824 - Parsiranje uspesno zavrseno!

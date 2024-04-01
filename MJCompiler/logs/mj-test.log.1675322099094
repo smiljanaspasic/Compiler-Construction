@@ -1,0 +1,85 @@
+INFO  05:27:29,956 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  05:27:29,963 - #2 program
+INFO  05:27:29,963 - #15 nekiprogram
+INFO  05:27:29,963 - #24 const
+INFO  05:27:29,964 - #15 bool
+INFO  05:27:29,964 - #15 c
+INFO  05:27:29,965 - #12 =
+INFO  05:27:29,965 - #27 false
+INFO  05:27:29,965 - #8 ,
+INFO  05:27:29,965 - #15 d
+INFO  05:27:29,966 - #12 =
+INFO  05:27:29,966 - #27 true
+INFO  05:27:29,966 - #5 ;
+INFO  05:27:29,966 - #15 int
+INFO  05:27:29,966 - #15 g
+INFO  05:27:29,966 - #31 [
+INFO  05:27:29,966 - #30 ]
+INFO  05:27:29,966 - #5 ;
+INFO  05:27:29,967 - #24 const
+INFO  05:27:29,968 - #15 char
+INFO  05:27:29,968 - #15 character
+INFO  05:27:29,968 - #12 =
+INFO  05:27:29,968 - #28 s
+INFO  05:27:29,970 - #5 ;
+INFO  05:27:29,970 - #3 {
+INFO  05:27:29,970 - #4 }
+INFO  05:27:29,970 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  DeclListConst(
+    DeclListVar(
+      DeclListConst(
+        NoDeclList(
+        ) [NoDeclList]
+        ConstsDeclNext(
+          Type(
+           bool
+          ) [Type]
+          MultipleConstList(
+            OneConstList(
+              ConstAssign(
+               c
+                BoolConstDecl(
+                ) [BoolConstDecl]
+              ) [ConstAssign]
+            ) [OneConstList]
+            ConstAssign(
+             d
+              BoolConstDecl(
+              ) [BoolConstDecl]
+            ) [ConstAssign]
+          ) [MultipleConstList]
+        ) [ConstsDeclNext]
+      ) [DeclListConst]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneVarList(
+          VarAssign(
+           g
+            VarNext(
+            ) [VarNext]
+          ) [VarAssign]
+        ) [OneVarList]
+      ) [VarDecl]
+    ) [DeclListVar]
+    ConstsDeclNext(
+      Type(
+       char
+      ) [Type]
+      OneConstList(
+        ConstAssign(
+         character
+          CharConstDecl(
+          ) [CharConstDecl]
+        ) [ConstAssign]
+      ) [OneConstList]
+    ) [ConstsDeclNext]
+  ) [DeclListConst]
+) [Program]
+INFO  05:27:29,970 - ===================================
+INFO  05:27:29,971 -  Deklarisanih promenljivih ima = 1
+INFO  05:27:29,971 -  Deklarisanih konstanti ima = 3

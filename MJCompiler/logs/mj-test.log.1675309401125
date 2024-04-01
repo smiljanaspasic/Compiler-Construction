@@ -1,0 +1,34 @@
+INFO  04:43:04,316 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  04:43:04,324 - #2 program
+INFO  04:43:04,324 - #15 nekiprogram
+INFO  04:43:04,324 - #24 const
+INFO  04:43:04,325 - #15 char
+INFO  04:43:04,325 - #15 c
+INFO  04:43:04,325 - #12 =
+INFO  04:43:04,325 - #28 e
+INFO  04:43:04,325 - #5 ;
+INFO  04:43:04,326 - #3 {
+INFO  04:43:04,326 - #4 }
+INFO  04:43:04,327 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  DeclListConst(
+    NoDeclList(
+    ) [NoDeclList]
+    ConstsDeclNext(
+      Type(
+       char
+      ) [Type]
+      OneConstList(
+        ConstAssign(
+         c
+          CharConstDecl(
+          ) [CharConstDecl]
+        ) [ConstAssign]
+      ) [OneConstList]
+    ) [ConstsDeclNext]
+  ) [DeclListConst]
+) [Program]
+INFO  04:43:04,328 - ===================================
+INFO  04:43:04,328 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,750 @@
+INFO  19:41:26,511 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  19:41:26,551 - #2 program
+INFO  19:41:26,551 - #17 nekiprogram
+INFO  19:41:26,552 - #26 const
+INFO  19:41:26,553 - #17 bool
+INFO  19:41:26,553 - #17 c
+INFO  19:41:26,554 - #12 =
+INFO  19:41:26,554 - #14 false
+INFO  19:41:26,554 - #8 ,
+INFO  19:41:26,554 - #17 d
+INFO  19:41:26,555 - #12 =
+INFO  19:41:26,555 - #14 true
+INFO  19:41:26,555 - #5 ;
+INFO  19:41:26,555 - #17 int
+INFO  19:41:26,555 - #17 g
+INFO  19:41:26,555 - #32 [
+INFO  19:41:26,556 - #31 ]
+INFO  19:41:26,556 - #5 ;
+INFO  19:41:26,557 - #17 int
+INFO  19:41:26,557 - #17 m
+INFO  19:41:26,558 - #5 ;
+INFO  19:41:26,558 - #17 int
+INFO  19:41:26,558 - #17 kk
+INFO  19:41:26,559 - #5 ;
+INFO  19:41:26,559 - #26 const
+INFO  19:41:26,559 - #17 char
+INFO  19:41:26,559 - #17 character
+INFO  19:41:26,559 - #12 =
+INFO  19:41:26,560 - #15 s
+INFO  19:41:26,560 - #5 ;
+INFO  19:41:26,560 - #3 {
+INFO  19:41:26,560 - #13 void
+INFO  19:41:26,561 - #17 main
+INFO  19:41:26,561 - #6 (
+INFO  19:41:26,561 - #7 )
+INFO  19:41:26,562 - #3 {
+INFO  19:41:26,562 - #4 }
+INFO  19:41:26,563 - #13 void
+INFO  19:41:26,564 - #17 fun
+INFO  19:41:26,564 - #6 (
+INFO  19:41:26,564 - #7 )
+INFO  19:41:26,564 - #17 int
+INFO  19:41:26,564 - #17 i
+INFO  19:41:26,565 - #32 [
+INFO  19:41:26,565 - #31 ]
+INFO  19:41:26,565 - #5 ;
+INFO  19:41:26,565 - #3 {
+INFO  19:41:26,565 - #4 }
+INFO  19:41:26,565 - #13 void
+INFO  19:41:26,565 - #17 fun2
+INFO  19:41:26,565 - #6 (
+INFO  19:41:26,565 - #17 int
+INFO  19:41:26,565 - #17 a
+INFO  19:41:26,565 - #8 ,
+INFO  19:41:26,566 - #17 char
+INFO  19:41:26,566 - #17 b
+INFO  19:41:26,567 - #32 [
+INFO  19:41:26,567 - #31 ]
+INFO  19:41:26,567 - #7 )
+INFO  19:41:26,567 - #3 {
+INFO  19:41:26,567 - #4 }
+INFO  19:41:26,567 - #17 int
+INFO  19:41:26,567 - #17 fun3
+INFO  19:41:26,567 - #6 (
+INFO  19:41:26,567 - #17 int
+INFO  19:41:26,567 - #17 ca
+INFO  19:41:26,568 - #8 ,
+INFO  19:41:26,568 - #17 int
+INFO  19:41:26,568 - #17 ba
+INFO  19:41:26,568 - #8 ,
+INFO  19:41:26,568 - #17 char
+INFO  19:41:26,568 - #17 d
+INFO  19:41:26,568 - #7 )
+INFO  19:41:26,568 - #3 {
+INFO  19:41:26,568 - #17 ca
+INFO  19:41:26,568 - #35 ++
+INFO  19:41:26,568 - #5 ;
+INFO  19:41:26,569 - #17 ba
+INFO  19:41:26,569 - #36 --
+INFO  19:41:26,569 - #5 ;
+INFO  19:41:26,569 - #20 read
+INFO  19:41:26,569 - #6 (
+INFO  19:41:26,569 - #17 d
+INFO  19:41:26,569 - #7 )
+INFO  19:41:26,569 - #5 ;
+INFO  19:41:26,569 - #4 }
+INFO  19:41:26,570 - #17 int
+INFO  19:41:26,570 - #17 fun4
+INFO  19:41:26,570 - #6 (
+INFO  19:41:26,570 - #17 int
+INFO  19:41:26,570 - #17 ab
+INFO  19:41:26,570 - #8 ,
+INFO  19:41:26,570 - #17 char
+INFO  19:41:26,570 - #17 bb
+INFO  19:41:26,570 - #8 ,
+INFO  19:41:26,570 - #17 bool
+INFO  19:41:26,570 - #17 cb
+INFO  19:41:26,570 - #7 )
+INFO  19:41:26,570 - #17 int
+INFO  19:41:26,570 - #17 p
+INFO  19:41:26,571 - #5 ;
+INFO  19:41:26,571 - #3 {
+INFO  19:41:26,571 - #17 kk
+INFO  19:41:26,571 - #12 =
+INFO  19:41:26,571 - #17 m
+INFO  19:41:26,571 - #33 .
+INFO  19:41:26,571 - #29 findAny
+INFO  19:41:26,571 - #6 (
+INFO  19:41:26,571 - #16 4
+INFO  19:41:26,571 - #7 )
+INFO  19:41:26,573 - #5 ;
+INFO  19:41:26,573 - #17 ab
+INFO  19:41:26,574 - #12 =
+INFO  19:41:26,574 - #48 -
+INFO  19:41:26,574 - #16 5
+INFO  19:41:26,574 - #5 ;
+INFO  19:41:26,574 - #17 bb
+INFO  19:41:26,574 - #12 =
+INFO  19:41:26,574 - #15 c
+INFO  19:41:26,574 - #5 ;
+INFO  19:41:26,575 - #17 ab
+INFO  19:41:26,575 - #12 =
+INFO  19:41:26,575 - #6 (
+INFO  19:41:26,575 - #48 -
+INFO  19:41:26,575 - #16 2
+INFO  19:41:26,575 - #47 *
+INFO  19:41:26,575 - #16 8
+INFO  19:41:26,576 - #47 *
+INFO  19:41:26,576 - #16 4
+INFO  19:41:26,577 - #7 )
+INFO  19:41:26,577 - #5 ;
+INFO  19:41:26,577 - #17 cb
+INFO  19:41:26,577 - #12 =
+INFO  19:41:26,577 - #14 true
+INFO  19:41:26,577 - #5 ;
+INFO  19:41:26,577 - #17 ab
+INFO  19:41:26,577 - #12 =
+INFO  19:41:26,577 - #21 new
+INFO  19:41:26,577 - #17 int
+INFO  19:41:26,577 - #32 [
+INFO  19:41:26,577 - #16 12
+INFO  19:41:26,578 - #48 -
+INFO  19:41:26,578 - #16 2
+INFO  19:41:26,578 - #31 ]
+INFO  19:41:26,579 - #5 ;
+INFO  19:41:26,579 - #17 g
+INFO  19:41:26,579 - #32 [
+INFO  19:41:26,579 - #16 4
+INFO  19:41:26,579 - #46 /
+INFO  19:41:26,579 - #16 2
+INFO  19:41:26,580 - #45 %
+INFO  19:41:26,580 - #16 9
+INFO  19:41:26,581 - #31 ]
+INFO  19:41:26,581 - #12 =
+INFO  19:41:26,582 - #16 6
+INFO  19:41:26,582 - #5 ;
+INFO  19:41:26,582 - #4 }
+INFO  19:41:26,582 - #17 char
+INFO  19:41:26,582 - #17 fun5
+INFO  19:41:26,582 - #6 (
+INFO  19:41:26,582 - #7 )
+INFO  19:41:26,582 - #3 {
+INFO  19:41:26,582 - #9 print
+INFO  19:41:26,582 - #6 (
+INFO  19:41:26,582 - #16 6
+INFO  19:41:26,585 - #7 )
+INFO  19:41:26,586 - #5 ;
+INFO  19:41:26,586 - #9 print
+INFO  19:41:26,586 - #6 (
+INFO  19:41:26,586 - #15 6
+INFO  19:41:26,586 - #8 ,
+INFO  19:41:26,586 - #16 7
+INFO  19:41:26,587 - #7 )
+INFO  19:41:26,587 - #5 ;
+INFO  19:41:26,587 - #4 }
+INFO  19:41:26,587 - #4 }
+INFO  19:41:26,589 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  DeclListConst(
+    DeclListVar(
+      DeclListVar(
+        DeclListVar(
+          DeclListConst(
+            NoDeclList(
+            ) [NoDeclList]
+            ConstsDeclNext(
+              Type(
+               bool
+              ) [Type]
+              MultipleConstList(
+                OneConstList(
+                  BoolConstDecl(
+                   c
+                   false
+                  ) [BoolConstDecl]
+                ) [OneConstList]
+                BoolConstDecl(
+                 d
+                 true
+                ) [BoolConstDecl]
+              ) [MultipleConstList]
+            ) [ConstsDeclNext]
+          ) [DeclListConst]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarList(
+              VarAssign(
+               g
+                SqrBrackets(
+                ) [SqrBrackets]
+              ) [VarAssign]
+            ) [OneVarList]
+          ) [VarDeclaration]
+        ) [DeclListVar]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarList(
+            VarAssign(
+             m
+              NoSqrBrackets(
+              ) [NoSqrBrackets]
+            ) [VarAssign]
+          ) [OneVarList]
+        ) [VarDeclaration]
+      ) [DeclListVar]
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarList(
+          VarAssign(
+           kk
+            NoSqrBrackets(
+            ) [NoSqrBrackets]
+          ) [VarAssign]
+        ) [OneVarList]
+      ) [VarDeclaration]
+    ) [DeclListVar]
+    ConstsDeclNext(
+      Type(
+       char
+      ) [Type]
+      OneConstList(
+        CharConstDecl(
+         character
+         s
+        ) [CharConstDecl]
+      ) [OneConstList]
+    ) [ConstsDeclNext]
+  ) [DeclListConst]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        MethodDeclarations(
+          MethodDeclarations(
+            MethodDeclarations(
+              NoMethodDecl(
+              ) [NoMethodDecl]
+              MethodDecl(
+                VoidType(
+                 main
+                ) [VoidType]
+                NoFormPars(
+                ) [NoFormPars]
+                NoVarDec(
+                ) [NoVarDec]
+                NoStatementDecl(
+                ) [NoStatementDecl]
+              ) [MethodDecl]
+            ) [MethodDeclarations]
+            MethodDecl(
+              VoidType(
+               fun
+              ) [VoidType]
+              NoFormPars(
+              ) [NoFormPars]
+              YesVarDecMul(
+                NoVarDec(
+                ) [NoVarDec]
+                VarDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                  OneVarList(
+                    VarAssign(
+                     i
+                      SqrBrackets(
+                      ) [SqrBrackets]
+                    ) [VarAssign]
+                  ) [OneVarList]
+                ) [VarDeclaration]
+              ) [YesVarDecMul]
+              NoStatementDecl(
+              ) [NoStatementDecl]
+            ) [MethodDecl]
+          ) [MethodDeclarations]
+          MethodDecl(
+            VoidType(
+             fun2
+            ) [VoidType]
+            FormParsDeclMul(
+              FormParsDecOne(
+                FormAssign(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                  NoSqrBrackets(
+                  ) [NoSqrBrackets]
+                ) [FormAssign]
+              ) [FormParsDecOne]
+              FormAssign(
+                Type(
+                 char
+                ) [Type]
+               b
+                SqrBrackets(
+                ) [SqrBrackets]
+              ) [FormAssign]
+            ) [FormParsDeclMul]
+            NoVarDec(
+            ) [NoVarDec]
+            NoStatementDecl(
+            ) [NoStatementDecl]
+          ) [MethodDecl]
+        ) [MethodDeclarations]
+        MethodDecl(
+          NonVoidType(
+            Type(
+             int
+            ) [Type]
+           fun3
+          ) [NonVoidType]
+          FormParsDeclMul(
+            FormParsDeclMul(
+              FormParsDecOne(
+                FormAssign(
+                  Type(
+                   int
+                  ) [Type]
+                 ca
+                  NoSqrBrackets(
+                  ) [NoSqrBrackets]
+                ) [FormAssign]
+              ) [FormParsDecOne]
+              FormAssign(
+                Type(
+                 int
+                ) [Type]
+               ba
+                NoSqrBrackets(
+                ) [NoSqrBrackets]
+              ) [FormAssign]
+            ) [FormParsDeclMul]
+            FormAssign(
+              Type(
+               char
+              ) [Type]
+             d
+              NoSqrBrackets(
+              ) [NoSqrBrackets]
+            ) [FormAssign]
+          ) [FormParsDeclMul]
+          NoVarDec(
+          ) [NoVarDec]
+          StatementDeclListt(
+            StatementDeclListt(
+              StatementDeclListt(
+                NoStatementDecl(
+                ) [NoStatementDecl]
+                DesignatorStmt(
+                  IncDesignatorStmt(
+                    DesignatorNoExpr(
+                     ca
+                    ) [DesignatorNoExpr]
+                  ) [IncDesignatorStmt]
+                ) [DesignatorStmt]
+              ) [StatementDeclListt]
+              DesignatorStmt(
+                DecDesignatorStmt(
+                  DesignatorNoExpr(
+                   ba
+                  ) [DesignatorNoExpr]
+                ) [DecDesignatorStmt]
+              ) [DesignatorStmt]
+            ) [StatementDeclListt]
+            ReadStmt(
+              DesignatorNoExpr(
+               d
+              ) [DesignatorNoExpr]
+            ) [ReadStmt]
+          ) [StatementDeclListt]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        NonVoidType(
+          Type(
+           int
+          ) [Type]
+         fun4
+        ) [NonVoidType]
+        FormParsDeclMul(
+          FormParsDeclMul(
+            FormParsDecOne(
+              FormAssign(
+                Type(
+                 int
+                ) [Type]
+               ab
+                NoSqrBrackets(
+                ) [NoSqrBrackets]
+              ) [FormAssign]
+            ) [FormParsDecOne]
+            FormAssign(
+              Type(
+               char
+              ) [Type]
+             bb
+              NoSqrBrackets(
+              ) [NoSqrBrackets]
+            ) [FormAssign]
+          ) [FormParsDeclMul]
+          FormAssign(
+            Type(
+             bool
+            ) [Type]
+           cb
+            NoSqrBrackets(
+            ) [NoSqrBrackets]
+          ) [FormAssign]
+        ) [FormParsDeclMul]
+        YesVarDecMul(
+          NoVarDec(
+          ) [NoVarDec]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarList(
+              VarAssign(
+               p
+                NoSqrBrackets(
+                ) [NoSqrBrackets]
+              ) [VarAssign]
+            ) [OneVarList]
+          ) [VarDeclaration]
+        ) [YesVarDecMul]
+        StatementDeclListt(
+          StatementDeclListt(
+            StatementDeclListt(
+              StatementDeclListt(
+                StatementDeclListt(
+                  StatementDeclListt(
+                    StatementDeclListt(
+                      NoStatementDecl(
+                      ) [NoStatementDecl]
+                      FindStmt(
+                        DesignatorNoExpr(
+                         kk
+                        ) [DesignatorNoExpr]
+                        DesignatorNoExpr(
+                         m
+                        ) [DesignatorNoExpr]
+                        ExprNoMinus(
+                          Term(
+                            NumFactor(
+                             4
+                            ) [NumFactor]
+                            NoFactorRpt(
+                            ) [NoFactorRpt]
+                          ) [Term]
+                          NoAddopRpt(
+                          ) [NoAddopRpt]
+                        ) [ExprNoMinus]
+                      ) [FindStmt]
+                    ) [StatementDeclListt]
+                    DesignatorStmt(
+                      ExprDesignatorStmt(
+                        DesignatorNoExpr(
+                         ab
+                        ) [DesignatorNoExpr]
+                        ExprMinus(
+                          Term(
+                            NumFactor(
+                             5
+                            ) [NumFactor]
+                            NoFactorRpt(
+                            ) [NoFactorRpt]
+                          ) [Term]
+                          NoAddopRpt(
+                          ) [NoAddopRpt]
+                        ) [ExprMinus]
+                      ) [ExprDesignatorStmt]
+                    ) [DesignatorStmt]
+                  ) [StatementDeclListt]
+                  DesignatorStmt(
+                    ExprDesignatorStmt(
+                      DesignatorNoExpr(
+                       bb
+                      ) [DesignatorNoExpr]
+                      ExprNoMinus(
+                        Term(
+                          CharFactor(
+                           c
+                          ) [CharFactor]
+                          NoFactorRpt(
+                          ) [NoFactorRpt]
+                        ) [Term]
+                        NoAddopRpt(
+                        ) [NoAddopRpt]
+                      ) [ExprNoMinus]
+                    ) [ExprDesignatorStmt]
+                  ) [DesignatorStmt]
+                ) [StatementDeclListt]
+                DesignatorStmt(
+                  ExprDesignatorStmt(
+                    DesignatorNoExpr(
+                     ab
+                    ) [DesignatorNoExpr]
+                    ExprNoMinus(
+                      Term(
+                        ExprFactor(
+                          ExprMinus(
+                            Term(
+                              NumFactor(
+                               2
+                              ) [NumFactor]
+                              FactorRpt(
+                                FactorRpt(
+                                  NoFactorRpt(
+                                  ) [NoFactorRpt]
+                                  MulopMul(
+                                  ) [MulopMul]
+                                  NumFactor(
+                                   8
+                                  ) [NumFactor]
+                                ) [FactorRpt]
+                                MulopMul(
+                                ) [MulopMul]
+                                NumFactor(
+                                 4
+                                ) [NumFactor]
+                              ) [FactorRpt]
+                            ) [Term]
+                            NoAddopRpt(
+                            ) [NoAddopRpt]
+                          ) [ExprMinus]
+                        ) [ExprFactor]
+                        NoFactorRpt(
+                        ) [NoFactorRpt]
+                      ) [Term]
+                      NoAddopRpt(
+                      ) [NoAddopRpt]
+                    ) [ExprNoMinus]
+                  ) [ExprDesignatorStmt]
+                ) [DesignatorStmt]
+              ) [StatementDeclListt]
+              DesignatorStmt(
+                ExprDesignatorStmt(
+                  DesignatorNoExpr(
+                   cb
+                  ) [DesignatorNoExpr]
+                  ExprNoMinus(
+                    Term(
+                      BoolFactor(
+                       true
+                      ) [BoolFactor]
+                      NoFactorRpt(
+                      ) [NoFactorRpt]
+                    ) [Term]
+                    NoAddopRpt(
+                    ) [NoAddopRpt]
+                  ) [ExprNoMinus]
+                ) [ExprDesignatorStmt]
+              ) [DesignatorStmt]
+            ) [StatementDeclListt]
+            DesignatorStmt(
+              ExprDesignatorStmt(
+                DesignatorNoExpr(
+                 ab
+                ) [DesignatorNoExpr]
+                ExprNoMinus(
+                  Term(
+                    NewFactor(
+                      Type(
+                       int
+                      ) [Type]
+                      ExprNoMinus(
+                        Term(
+                          NumFactor(
+                           12
+                          ) [NumFactor]
+                          FactorRpt(
+                            NoFactorRpt(
+                            ) [NoFactorRpt]
+                            MulopMinus(
+                            ) [MulopMinus]
+                            NumFactor(
+                             2
+                            ) [NumFactor]
+                          ) [FactorRpt]
+                        ) [Term]
+                        NoAddopRpt(
+                        ) [NoAddopRpt]
+                      ) [ExprNoMinus]
+                    ) [NewFactor]
+                    NoFactorRpt(
+                    ) [NoFactorRpt]
+                  ) [Term]
+                  NoAddopRpt(
+                  ) [NoAddopRpt]
+                ) [ExprNoMinus]
+              ) [ExprDesignatorStmt]
+            ) [DesignatorStmt]
+          ) [StatementDeclListt]
+          DesignatorStmt(
+            ExprDesignatorStmt(
+              DesignatorDecl(
+               g
+                ExprNoMinus(
+                  Term(
+                    NumFactor(
+                     4
+                    ) [NumFactor]
+                    NoFactorRpt(
+                    ) [NoFactorRpt]
+                  ) [Term]
+                  AddopRpt(
+                    AddopRpt(
+                      NoAddopRpt(
+                      ) [NoAddopRpt]
+                      AddopDiv(
+                      ) [AddopDiv]
+                      Term(
+                        NumFactor(
+                         2
+                        ) [NumFactor]
+                        NoFactorRpt(
+                        ) [NoFactorRpt]
+                      ) [Term]
+                    ) [AddopRpt]
+                    AddopMod(
+                    ) [AddopMod]
+                    Term(
+                      NumFactor(
+                       9
+                      ) [NumFactor]
+                      NoFactorRpt(
+                      ) [NoFactorRpt]
+                    ) [Term]
+                  ) [AddopRpt]
+                ) [ExprNoMinus]
+              ) [DesignatorDecl]
+              ExprNoMinus(
+                Term(
+                  NumFactor(
+                   6
+                  ) [NumFactor]
+                  NoFactorRpt(
+                  ) [NoFactorRpt]
+                ) [Term]
+                NoAddopRpt(
+                ) [NoAddopRpt]
+              ) [ExprNoMinus]
+            ) [ExprDesignatorStmt]
+          ) [DesignatorStmt]
+        ) [StatementDeclListt]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      NonVoidType(
+        Type(
+         char
+        ) [Type]
+       fun5
+      ) [NonVoidType]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDec(
+      ) [NoVarDec]
+      StatementDeclListt(
+        StatementDeclListt(
+          NoStatementDecl(
+          ) [NoStatementDecl]
+          PrintStmt(
+            ExprNoMinus(
+              Term(
+                NumFactor(
+                 6
+                ) [NumFactor]
+                NoFactorRpt(
+                ) [NoFactorRpt]
+              ) [Term]
+              NoAddopRpt(
+              ) [NoAddopRpt]
+            ) [ExprNoMinus]
+            NoNumConstt(
+            ) [NoNumConstt]
+          ) [PrintStmt]
+        ) [StatementDeclListt]
+        PrintStmt(
+          ExprNoMinus(
+            Term(
+              CharFactor(
+               6
+              ) [CharFactor]
+              NoFactorRpt(
+              ) [NoFactorRpt]
+            ) [Term]
+            NoAddopRpt(
+            ) [NoAddopRpt]
+          ) [ExprNoMinus]
+          NumConstt(
+           7
+          ) [NumConstt]
+        ) [PrintStmt]
+      ) [StatementDeclListt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:41:26,590 - ===================================
+INFO  19:41:26,597 - Nadjena logicka(bool) konstanta c na liniji 2
+INFO  19:41:26,597 - Nadjena logicka(bool) konstanta d na liniji 2
+INFO  19:41:26,598 - Nadjena varijabla g na liniji 3
+INFO  19:41:26,598 - Nadjena varijabla m na liniji 4
+INFO  19:41:26,598 - Nadjena varijabla kk na liniji 5
+INFO  19:41:26,598 - Nadjena karakterna(char) konstanta character na liniji 6
+INFO  19:41:26,598 - Nadjena funkcija main na liniji 9
+INFO  19:41:26,598 - Nadjena funkcija fun na liniji 11
+INFO  19:41:26,598 - Nadjena varijabla i na liniji 11
+INFO  19:41:26,598 - Nadjena funkcija fun2 na liniji 13
+INFO  19:41:26,598 - Nadjena lokalna varijabla a na liniji 13
+INFO  19:41:26,598 - Nadjena lokalna varijabla b na liniji 13
+INFO  19:41:26,598 - Nadjena funkcija fun3 na liniji 15
+INFO  19:41:26,599 - Nadjena lokalna varijabla ca na liniji 15
+INFO  19:41:26,599 - Nadjena lokalna varijabla ba na liniji 15
+INFO  19:41:26,599 - Nadjena lokalna varijabla d na liniji 15
+INFO  19:41:26,599 - Nadjena funkcija fun4 na liniji 17
+INFO  19:41:26,599 - Nadjena lokalna varijabla ab na liniji 17
+INFO  19:41:26,599 - Nadjena lokalna varijabla bb na liniji 17
+INFO  19:41:26,599 - Nadjena lokalna varijabla cb na liniji 17
+INFO  19:41:26,599 - Nadjena varijabla p na liniji 17
+INFO  19:41:26,599 - rs.etf.pp1.symboltable.concepts.Struct@1e9e725a
+ERROR 19:41:26,599 - Greska na liniji19 :  designator sa desne strane jednakosti mora oznacavati jednodimenzionalni niz ugradjenog tipa 

@@ -1,0 +1,5 @@
+INFO  22:36:26,741 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\jednostavni.mj
+INFO  22:36:39,640 - #13 void
+ERROR 22:36:39,641 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 1
+ERROR 22:36:39,641 - Fatalna greska, parsiranje se ne moze nastavitiizvrsen je oporavak od greske na liniji 1

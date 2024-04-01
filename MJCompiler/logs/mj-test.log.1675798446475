@@ -1,0 +1,195 @@
+INFO  20:29:41,060 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\test301.mj
+INFO  20:29:41,080 - #2 program
+INFO  20:29:41,080 - #17 test301
+INFO  20:29:41,080 - #26 const
+INFO  20:29:41,081 - #17 int
+INFO  20:29:41,081 - #17 a
+INFO  20:29:41,081 - #12 =
+INFO  20:29:41,081 - #16 4
+INFO  20:29:41,081 - #5 ;
+INFO  20:29:41,081 - #3 {
+INFO  20:29:41,082 - #13 void
+INFO  20:29:41,082 - #17 main
+INFO  20:29:41,082 - #6 (
+INFO  20:29:41,082 - #7 )
+INFO  20:29:41,082 - #17 int
+INFO  20:29:41,083 - #17 bodovi
+INFO  20:29:41,083 - #5 ;
+INFO  20:29:41,084 - #17 bool
+INFO  20:29:41,084 - #17 bt
+INFO  20:29:41,084 - #5 ;
+INFO  20:29:41,084 - #3 {
+INFO  20:29:41,084 - #9 print
+INFO  20:29:41,085 - #6 (
+INFO  20:29:41,085 - #16 3
+INFO  20:29:41,086 - #7 )
+INFO  20:29:41,087 - #5 ;
+INFO  20:29:41,087 - #9 print
+INFO  20:29:41,087 - #6 (
+INFO  20:29:41,087 - #15 c
+INFO  20:29:41,088 - #7 )
+INFO  20:29:41,088 - #5 ;
+INFO  20:29:41,088 - #9 print
+INFO  20:29:41,088 - #6 (
+INFO  20:29:41,088 - #14 true
+INFO  20:29:41,088 - #7 )
+INFO  20:29:41,088 - #5 ;
+INFO  20:29:41,088 - #9 print
+INFO  20:29:41,088 - #6 (
+INFO  20:29:41,088 - #17 a
+INFO  20:29:41,088 - #7 )
+INFO  20:29:41,089 - #5 ;
+INFO  20:29:41,089 - #4 }
+INFO  20:29:41,089 - #4 }
+INFO  20:29:41,093 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclListConst(
+    NoDeclList(
+    ) [NoDeclList]
+    ConstsDeclNext(
+      Type(
+       int
+      ) [Type]
+      OneConstList(
+        NumConstDecl(
+         a
+         4
+        ) [NumConstDecl]
+      ) [OneConstList]
+    ) [ConstsDeclNext]
+  ) [DeclListConst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidType(
+       main
+      ) [VoidType]
+      NoFormPars(
+      ) [NoFormPars]
+      YesVarDecMul(
+        YesVarDecMul(
+          NoVarDec(
+          ) [NoVarDec]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarList(
+              VarAssign(
+               bodovi
+                NoSqrBrackets(
+                ) [NoSqrBrackets]
+              ) [VarAssign]
+            ) [OneVarList]
+          ) [VarDeclaration]
+        ) [YesVarDecMul]
+        VarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          OneVarList(
+            VarAssign(
+             bt
+              NoSqrBrackets(
+              ) [NoSqrBrackets]
+            ) [VarAssign]
+          ) [OneVarList]
+        ) [VarDeclaration]
+      ) [YesVarDecMul]
+      StatementDeclListt(
+        StatementDeclListt(
+          StatementDeclListt(
+            StatementDeclListt(
+              NoStatementDecl(
+              ) [NoStatementDecl]
+              PrintStmt(
+                Expr(
+                  NoMinusDecl(
+                  ) [NoMinusDecl]
+                  Term(
+                    NumFactor(
+                     3
+                    ) [NumFactor]
+                    NoFactorRpt(
+                    ) [NoFactorRpt]
+                  ) [Term]
+                  NoAddopRpt(
+                  ) [NoAddopRpt]
+                ) [Expr]
+                NoNumConstt(
+                ) [NoNumConstt]
+              ) [PrintStmt]
+            ) [StatementDeclListt]
+            PrintStmt(
+              Expr(
+                NoMinusDecl(
+                ) [NoMinusDecl]
+                Term(
+                  CharFactor(
+                   c
+                  ) [CharFactor]
+                  NoFactorRpt(
+                  ) [NoFactorRpt]
+                ) [Term]
+                NoAddopRpt(
+                ) [NoAddopRpt]
+              ) [Expr]
+              NoNumConstt(
+              ) [NoNumConstt]
+            ) [PrintStmt]
+          ) [StatementDeclListt]
+          PrintStmt(
+            Expr(
+              NoMinusDecl(
+              ) [NoMinusDecl]
+              Term(
+                BoolFactor(
+                 true
+                ) [BoolFactor]
+                NoFactorRpt(
+                ) [NoFactorRpt]
+              ) [Term]
+              NoAddopRpt(
+              ) [NoAddopRpt]
+            ) [Expr]
+            NoNumConstt(
+            ) [NoNumConstt]
+          ) [PrintStmt]
+        ) [StatementDeclListt]
+        PrintStmt(
+          Expr(
+            NoMinusDecl(
+            ) [NoMinusDecl]
+            Term(
+              DesignatorFactor(
+                DesignatorDecl(
+                 a
+                  NemaExprrOptn(
+                  ) [NemaExprrOptn]
+                ) [DesignatorDecl]
+              ) [DesignatorFactor]
+              NoFactorRpt(
+              ) [NoFactorRpt]
+            ) [Term]
+            NoAddopRpt(
+            ) [NoAddopRpt]
+          ) [Expr]
+          NoNumConstt(
+          ) [NoNumConstt]
+        ) [PrintStmt]
+      ) [StatementDeclListt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:29:41,093 - ===================================
+INFO  20:29:41,095 - Nadjena numericka konstanta a na liniji 5
+INFO  20:29:41,095 - Nadjena funkcija main na liniji 8
+INFO  20:29:41,095 - Nadjena varijabla bodovi na liniji 9
+INFO  20:29:41,095 - Nadjena varijabla bt na liniji 10
+INFO  20:29:41,095 -  Konstanti ima = 1
+INFO  20:29:41,095 -  Deklarisanih promenljivih ima = 2
+INFO  20:29:41,095 - ===================================
+INFO  20:29:41,097 - Parsiranje uspesno zavrseno!

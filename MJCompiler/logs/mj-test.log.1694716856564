@@ -1,0 +1,380 @@
+INFO  20:38:41,167 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\neuspesan_primer.mj
+INFO  20:38:41,193 - #2 program
+INFO  20:38:41,193 - #17 nekiprogram
+INFO  20:38:41,193 - #26 const
+INFO  20:38:41,194 - #17 bool
+INFO  20:38:41,194 - #17 c
+INFO  20:38:41,194 - #12 =
+INFO  20:38:41,194 - #14 false
+INFO  20:38:41,195 - #8 ,
+INFO  20:38:41,195 - #17 d
+INFO  20:38:41,195 - #12 =
+INFO  20:38:41,195 - #14 true
+INFO  20:38:41,195 - #5 ;
+INFO  20:38:41,195 - #17 int
+INFO  20:38:41,195 - #17 g
+INFO  20:38:41,195 - #32 [
+INFO  20:38:41,195 - #31 ]
+INFO  20:38:41,195 - #5 ;
+INFO  20:38:41,196 - #17 int
+INFO  20:38:41,197 - #17 m
+INFO  20:38:41,197 - #5 ;
+INFO  20:38:41,197 - #17 int
+INFO  20:38:41,197 - #17 s
+INFO  20:38:41,350 - #32 [
+INFO  20:38:41,350 - #31 ]
+INFO  20:38:41,350 - #8 ,
+INFO  20:38:41,350 - #8 ,
+ERROR 20:38:41,350 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 7
+INFO  20:38:41,351 - #8 ,
+INFO  20:38:41,351 - #17 k
+INFO  20:38:41,351 - #5 ;
+INFO  20:38:41,351 - #17 char
+INFO  20:38:41,351 - #17 m
+INFO  20:38:41,352 - #46 /
+ERROR 20:38:41,352 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 8
+INFO  20:38:41,352 - #17 s
+INFO  20:38:41,352 - #5 ;
+INFO  20:38:41,352 - #17 int
+INFO  20:38:41,352 - #17 m
+INFO  20:38:41,352 - #5 ;
+INFO  20:38:41,352 - #26 const
+INFO  20:38:41,352 - #17 char
+INFO  20:38:41,352 - #17 character
+INFO  20:38:41,352 - #12 =
+INFO  20:38:41,352 - #15 s
+INFO  20:38:41,353 - #5 ;
+INFO  20:38:41,353 - #3 {
+INFO  20:38:41,353 - #17 int
+INFO  20:38:41,353 - #17 main
+INFO  20:38:41,353 - #6 (
+INFO  20:38:41,353 - #7 )
+INFO  20:38:41,354 - #3 {
+INFO  20:38:41,354 - #17 c
+INFO  20:38:41,355 - #35 ++
+INFO  20:38:41,355 - #5 ;
+INFO  20:38:41,355 - #17 b
+INFO  20:38:41,355 - #36 --
+INFO  20:38:41,355 - #5 ;
+INFO  20:38:41,355 - #17 d
+INFO  20:38:41,356 - #36 --
+INFO  20:38:41,356 - #5 ;
+INFO  20:38:41,356 - #32 [
+ERROR 20:38:41,356 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 14
+INFO  20:38:41,356 - #17 a
+INFO  20:38:41,356 - #8 ,
+INFO  20:38:41,356 - #17 b
+INFO  20:38:41,356 - #31 ]
+INFO  20:38:41,356 - #12 =
+INFO  20:38:41,356 - #17 p
+INFO  20:38:41,356 - #5 ;
+INFO  20:38:41,356 - #17 a
+INFO  20:38:41,356 - #12 =
+INFO  20:38:41,356 - #11 +
+ERROR 20:38:41,357 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 15
+INFO  20:38:41,357 - #16 3
+INFO  20:38:41,357 - #5 ;
+INFO  20:38:41,357 - #17 g
+INFO  20:38:41,357 - #32 [
+INFO  20:38:41,357 - #32 [
+ERROR 20:38:41,357 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 16
+INFO  20:38:41,358 - #31 ]
+INFO  20:38:41,358 - #31 ]
+INFO  20:38:41,358 - #5 ;
+INFO  20:38:41,358 - #17 a
+INFO  20:38:41,358 - #12 =
+INFO  20:38:41,358 - #14 true
+INFO  20:38:41,358 - #5 ;
+INFO  20:38:41,358 - #17 b
+INFO  20:38:41,358 - #12 =
+INFO  20:38:41,359 - #15 c
+INFO  20:38:41,359 - #5 ;
+INFO  20:38:41,359 - #17 a
+INFO  20:38:41,359 - #12 =
+INFO  20:38:41,359 - #6 (
+INFO  20:38:41,359 - #48 -
+INFO  20:38:41,359 - #15 8
+INFO  20:38:41,359 - #7 )
+INFO  20:38:41,359 - #5 ;
+INFO  20:38:41,359 - #17 a
+INFO  20:38:41,359 - #12 =
+INFO  20:38:41,359 - #14 true
+INFO  20:38:41,360 - #5 ;
+INFO  20:38:41,360 - #17 z
+INFO  20:38:41,360 - #12 =
+INFO  20:38:41,360 - #14 false
+INFO  20:38:41,360 - #5 ;
+INFO  20:38:41,360 - #4 }
+INFO  20:38:41,360 - #4 }
+INFO  20:38:41,362 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  DeclListConst(
+    DeclListVar(
+      DeclListVar(
+        DeclListVar(
+          DeclListVar(
+            DeclListVar(
+              DeclListConst(
+                NoDeclList(
+                ) [NoDeclList]
+                ConstsDeclNext(
+                  Type(
+                   bool
+                  ) [Type]
+                  MultipleConstList(
+                    OneConstList(
+                      BoolConstDecl(
+                       c
+                       false
+                      ) [BoolConstDecl]
+                    ) [OneConstList]
+                    BoolConstDecl(
+                     d
+                     true
+                    ) [BoolConstDecl]
+                  ) [MultipleConstList]
+                ) [ConstsDeclNext]
+              ) [DeclListConst]
+              VarDeclaration(
+                Type(
+                 int
+                ) [Type]
+                OneVarList(
+                  VarAssign(
+                   g
+                    SqrBrackets(
+                    ) [SqrBrackets]
+                  ) [VarAssign]
+                ) [OneVarList]
+              ) [VarDeclaration]
+            ) [DeclListVar]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              OneVarList(
+                VarAssign(
+                 m
+                  NoSqrBrackets(
+                  ) [NoSqrBrackets]
+                ) [VarAssign]
+              ) [OneVarList]
+            ) [VarDeclaration]
+          ) [DeclListVar]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            ErrorV(
+              VarAssign(
+               k
+                NoSqrBrackets(
+                ) [NoSqrBrackets]
+              ) [VarAssign]
+            ) [ErrorV]
+          ) [VarDeclaration]
+        ) [DeclListVar]
+        ErrorStmt(
+          Type(
+           char
+          ) [Type]
+        ) [ErrorStmt]
+      ) [DeclListVar]
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        OneVarList(
+          VarAssign(
+           m
+            NoSqrBrackets(
+            ) [NoSqrBrackets]
+          ) [VarAssign]
+        ) [OneVarList]
+      ) [VarDeclaration]
+    ) [DeclListVar]
+    ConstsDeclNext(
+      Type(
+       char
+      ) [Type]
+      OneConstList(
+        CharConstDecl(
+         character
+         s
+        ) [CharConstDecl]
+      ) [OneConstList]
+    ) [ConstsDeclNext]
+  ) [DeclListConst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      NonVoidType(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [NonVoidType]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDec(
+      ) [NoVarDec]
+      StatementDeclListt(
+        StatementDeclListt(
+          StatementDeclListt(
+            StatementDeclListt(
+              StatementDeclListt(
+                StatementDeclListt(
+                  StatementDeclListt(
+                    StatementDeclListt(
+                      StatementDeclListt(
+                        StatementDeclListt(
+                          NoStatementDecl(
+                          ) [NoStatementDecl]
+                          DesignatorStmt(
+                            IncDesignatorStmt(
+                              DesignatorNoExpr(
+                               c
+                              ) [DesignatorNoExpr]
+                            ) [IncDesignatorStmt]
+                          ) [DesignatorStmt]
+                        ) [StatementDeclListt]
+                        DesignatorStmt(
+                          DecDesignatorStmt(
+                            DesignatorNoExpr(
+                             b
+                            ) [DesignatorNoExpr]
+                          ) [DecDesignatorStmt]
+                        ) [DesignatorStmt]
+                      ) [StatementDeclListt]
+                      ErrorDesignatorStmt(
+                      ) [ErrorDesignatorStmt]
+                    ) [StatementDeclListt]
+                    ErrorDesignatorStmt(
+                    ) [ErrorDesignatorStmt]
+                  ) [StatementDeclListt]
+                  ErrorDesignatorStmt(
+                  ) [ErrorDesignatorStmt]
+                ) [StatementDeclListt]
+                DesignatorStmt(
+                  ExprDesignatorStmt(
+                    DesignatorNoExpr(
+                     a
+                    ) [DesignatorNoExpr]
+                    ExprSingleTerm(
+                      TermSingleFactor(
+                        BoolFactor(
+                         true
+                        ) [BoolFactor]
+                      ) [TermSingleFactor]
+                    ) [ExprSingleTerm]
+                  ) [ExprDesignatorStmt]
+                ) [DesignatorStmt]
+              ) [StatementDeclListt]
+              DesignatorStmt(
+                ExprDesignatorStmt(
+                  DesignatorNoExpr(
+                   b
+                  ) [DesignatorNoExpr]
+                  ExprSingleTerm(
+                    TermSingleFactor(
+                      CharFactor(
+                       c
+                      ) [CharFactor]
+                    ) [TermSingleFactor]
+                  ) [ExprSingleTerm]
+                ) [ExprDesignatorStmt]
+              ) [DesignatorStmt]
+            ) [StatementDeclListt]
+            DesignatorStmt(
+              ExprDesignatorStmt(
+                DesignatorNoExpr(
+                 a
+                ) [DesignatorNoExpr]
+                ExprSingleTerm(
+                  TermSingleFactor(
+                    ExprFactor(
+                      ExprMinus(
+                        TermSingleFactor(
+                          CharFactor(
+                           8
+                          ) [CharFactor]
+                        ) [TermSingleFactor]
+                      ) [ExprMinus]
+                    ) [ExprFactor]
+                  ) [TermSingleFactor]
+                ) [ExprSingleTerm]
+              ) [ExprDesignatorStmt]
+            ) [DesignatorStmt]
+          ) [StatementDeclListt]
+          DesignatorStmt(
+            ExprDesignatorStmt(
+              DesignatorNoExpr(
+               a
+              ) [DesignatorNoExpr]
+              ExprSingleTerm(
+                TermSingleFactor(
+                  BoolFactor(
+                   true
+                  ) [BoolFactor]
+                ) [TermSingleFactor]
+              ) [ExprSingleTerm]
+            ) [ExprDesignatorStmt]
+          ) [DesignatorStmt]
+        ) [StatementDeclListt]
+        DesignatorStmt(
+          ExprDesignatorStmt(
+            DesignatorNoExpr(
+             z
+            ) [DesignatorNoExpr]
+            ExprSingleTerm(
+              TermSingleFactor(
+                BoolFactor(
+                 false
+                ) [BoolFactor]
+              ) [TermSingleFactor]
+            ) [ExprSingleTerm]
+          ) [ExprDesignatorStmt]
+        ) [DesignatorStmt]
+      ) [StatementDeclListt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:38:41,362 - ===================================
+INFO  20:38:41,367 - Nadjena logicka(bool) konstanta c na liniji 4
+INFO  20:38:41,367 - Nadjena logicka(bool) konstanta d na liniji 4
+INFO  20:38:41,367 - Nadjena globalna varijabla g na liniji 5
+INFO  20:38:41,367 - Nadjena globalna varijabla m na liniji 6
+INFO  20:38:41,367 - Nadjena globalna varijabla k na liniji 7
+ERROR 20:38:41,367 - Simbol sa imenom m vec postoji u trenutnom opsegu na liniji 9
+INFO  20:38:41,367 - Nadjena karakterna(char) konstanta character na liniji 10
+INFO  20:38:41,367 - Nadjena funkcija main na liniji 12
+INFO  20:38:41,368 - Pristup konstanti c na liniji 13
+ERROR 20:38:41,368 - Greska na liniji 13 : nekompatibilni tipovi,ne moze se inkrementirati nesto sto nije int 
+ERROR 20:38:41,368 - Greska na liniji 13 : ime b nije deklarisano! 
+INFO  20:38:41,368 - Pristup promenljivoj noObj na liniji 13
+ERROR 20:38:41,368 - Greska na liniji 13 : nekompatibilni tipovi,ne moze se dekrementirati nesto sto nije int 
+ERROR 20:38:41,368 - Greska na liniji 17 : ime a nije deklarisano! 
+INFO  20:38:41,368 - Pristup promenljivoj noObj na liniji 17
+ERROR 20:38:41,368 - Greska na liniji 18 : ime b nije deklarisano! 
+INFO  20:38:41,368 - Pristup promenljivoj noObj na liniji 18
+ERROR 20:38:41,368 - Greska na liniji 19 : ime a nije deklarisano! 
+INFO  20:38:41,368 - Pristup promenljivoj noObj na liniji 19
+ERROR 20:38:41,369 - Greska na liniji 19tip term nije int! 
+ERROR 20:38:41,369 - Greska na liniji 20 : ime a nije deklarisano! 
+INFO  20:38:41,369 - Pristup promenljivoj noObj na liniji 20
+ERROR 20:38:41,369 - Greska na liniji 21 : ime z nije deklarisano! 
+INFO  20:38:41,369 - Pristup promenljivoj noObj na liniji 21
+ERROR 20:38:41,369 - Main metoda nije tipa void. na liniji 1
+INFO  20:38:41,369 - ===================================
+INFO  20:38:41,369 -  Deklarisanih globalnih promenljivih ima = 3
+INFO  20:38:41,369 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  20:38:41,369 -  Deklarisanih simbolickih konstanti ima = 3
+ERROR 20:38:41,369 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,189 @@
+INFO  13:38:49,963 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  13:38:52,124 - #2 program
+INFO  13:38:52,125 - #15 nekiprogram
+INFO  13:38:52,125 - #24 const
+INFO  13:38:52,204 - #15 bool
+INFO  13:38:52,205 - #15 c
+INFO  13:38:52,224 - #12 =
+INFO  13:38:52,225 - #27 false
+INFO  13:38:52,225 - #8 ,
+INFO  13:38:52,257 - #15 d
+INFO  13:38:52,257 - #12 =
+INFO  13:38:52,257 - #27 true
+INFO  13:38:52,258 - #5 ;
+INFO  13:38:52,258 - #15 int
+INFO  13:38:52,258 - #15 g
+INFO  13:38:52,258 - #31 [
+INFO  13:38:52,258 - #30 ]
+INFO  13:38:52,259 - #5 ;
+INFO  13:38:52,285 - #24 const
+INFO  13:38:52,300 - #15 char
+INFO  13:38:52,301 - #15 character
+INFO  13:38:52,301 - #12 =
+INFO  13:38:52,301 - #28 s
+INFO  13:38:52,302 - #5 ;
+INFO  13:38:52,312 - #3 {
+INFO  13:38:52,312 - #15 int
+INFO  13:38:52,388 - #15 main
+INFO  13:38:52,388 - #6 (
+INFO  13:38:52,389 - #7 )
+INFO  13:38:52,410 - #3 {
+INFO  13:38:52,470 - #4 }
+INFO  13:38:52,536 - #13 void
+INFO  13:38:52,586 - #15 fun
+INFO  13:38:52,587 - #6 (
+INFO  13:38:52,588 - #7 )
+INFO  13:38:52,588 - #15 int
+INFO  13:38:52,588 - #15 i
+INFO  13:38:52,588 - #31 [
+INFO  13:38:52,588 - #30 ]
+INFO  13:38:52,589 - #5 ;
+INFO  13:38:52,589 - #3 {
+INFO  13:38:52,590 - #4 }
+INFO  13:38:52,590 - #13 void
+INFO  13:38:52,590 - #15 fun2
+INFO  13:38:52,591 - #6 (
+INFO  13:38:52,591 - #15 int
+INFO  13:38:52,591 - #15 a
+INFO  13:38:52,591 - #8 ,
+INFO  13:38:52,622 - #15 char
+INFO  13:38:52,622 - #15 b
+INFO  13:38:52,622 - #31 [
+INFO  13:38:52,622 - #30 ]
+INFO  13:38:52,622 - #7 )
+INFO  13:38:52,623 - #3 {
+INFO  13:38:52,623 - #4 }
+INFO  13:38:52,623 - #4 }
+INFO  13:38:52,640 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  DeclListConst(
+    DeclListVar(
+      DeclListConst(
+        NoDeclList(
+        ) [NoDeclList]
+        ConstsDeclNext(
+          Type(
+           bool
+          ) [Type]
+          MultipleConstList(
+            OneConstList(
+              ConstAssign(
+               c
+                BoolConstDecl(
+                ) [BoolConstDecl]
+              ) [ConstAssign]
+            ) [OneConstList]
+            ConstAssign(
+             d
+              BoolConstDecl(
+              ) [BoolConstDecl]
+            ) [ConstAssign]
+          ) [MultipleConstList]
+        ) [ConstsDeclNext]
+      ) [DeclListConst]
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        OneVarList(
+          VarAssign(
+           g
+            SqrBrackets(
+            ) [SqrBrackets]
+          ) [VarAssign]
+        ) [OneVarList]
+      ) [VarDecl]
+    ) [DeclListVar]
+    ConstsDeclNext(
+      Type(
+       char
+      ) [Type]
+      OneConstList(
+        ConstAssign(
+         character
+          CharConstDecl(
+          ) [CharConstDecl]
+        ) [ConstAssign]
+      ) [OneConstList]
+    ) [ConstsDeclNext]
+  ) [DeclListConst]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+        MethodDecl(
+          NonVoidType(
+            Type(
+             int
+            ) [Type]
+           main
+          ) [NonVoidType]
+          NoFormPars(
+          ) [NoFormPars]
+          NoVarDec(
+          ) [NoVarDec]
+          NoStmt(
+          ) [NoStmt]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        VoidType(
+         fun
+        ) [VoidType]
+        NoFormPars(
+        ) [NoFormPars]
+        YesVarDec(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            OneVarList(
+              VarAssign(
+               i
+                SqrBrackets(
+                ) [SqrBrackets]
+              ) [VarAssign]
+            ) [OneVarList]
+          ) [VarDecl]
+        ) [YesVarDec]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      VoidType(
+       fun2
+      ) [VoidType]
+      FormParsDeclMul(
+        FormParsDecOne(
+          FormAssign(
+            Type(
+             int
+            ) [Type]
+           a
+            NoSqrBrackets(
+            ) [NoSqrBrackets]
+          ) [FormAssign]
+        ) [FormParsDecOne]
+        FormAssign(
+          Type(
+           char
+          ) [Type]
+         b
+          SqrBrackets(
+          ) [SqrBrackets]
+        ) [FormAssign]
+      ) [FormParsDeclMul]
+      NoVarDec(
+      ) [NoVarDec]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:38:52,640 - ===================================
+INFO  13:38:52,781 -  Deklarisanih promenljivih ima = 2
+INFO  13:38:52,783 -  Deklarisanih konstanti ima = 3

@@ -1,0 +1,258 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska,", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append ("izvrsen je oporavak od greske na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, RETURN, PLUS, EQUAL, VOID ;
+terminal Boolean BOOLCONST ;
+terminal Character CHARCONST;
+terminal Integer NUMBER ;
+terminal String IDENT ;
+terminal IF, ELSE, READ, NEW, WHILE, EXTENDS, CONTINUE, FOREACH, CONST, NMSPACE, CLASS, BREAK, FINDANY ;
+terminal ARROW, RSQRBRACK, LSQRBRACK, DOT, COLON, DOUBLECOLON, INC, DEC, OR, AND, LEA, LES, GEA, GRE, NEQU, EQU, MOD, DIV, MUL, MINUS ;
+
+nonterminal ConstDecl;
+nonterminal ConstList;
+nonterminal VarList;
+nonterminal MethodDecl;
+nonterminal FormParsDecl;
+nonterminal Statement;
+nonterminal SqrBrackets;
+nonterminal DesignatorStatement;
+nonterminal ExprOption;
+nonterminal NumConst; 
+nonterminal MinusDecl;
+nonterminal AddopRepetition;
+nonterminal FactorRepetition;
+nonterminal Mulop;
+nonterminal Addop;
+nonterminal VarDeclOption;
+nonterminal MethodDeclList;
+nonterminal NamespaceList;
+nonterminal StatementDeclList;
+nonterminal ExprDetails;
+nonterminal DesignatorArray;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, Namespace, NamespaceName, ProgName, VarAssign, FormAssign, ConstAssign, Designator, MethodType ;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, DeclList, VarDecl, Term, Factor, Expr;
+
+Program ::= (Program) PROG ProgName:p NamespaceList DeclList LBRACE MethodDeclList RBRACE 
+;
+
+ProgName ::= (ProgName) IDENT:nameP;
+
+NamespaceList ::=  (NamespaceListExists) NamespaceList Namespace
+				|  
+				   (NoNamespace) /*epsilon*/
+				;
+
+Namespace ::= (Namespace) NMSPACE NamespaceName LBRACE DeclList LBRACE MethodDeclList RBRACE RBRACE;
+
+NamespaceName ::= (NamespaceName) IDENT:nameN;
+
+DeclList ::= (DeclListConst) DeclList ConstDecl 
+			| 
+			(DeclListVar) DeclList VarDecl
+			|
+			(NoDeclList) /*epsilon*/
+			;
+
+ConstDecl ::= (ConstsDeclNext) CONST Type ConstList SEMI;
+
+ConstList ::= (MultipleConstList) ConstList COMMA ConstAssign
+            |  
+              (OneConstList) ConstAssign
+            ;
+            
+ConstAssign ::=	(NumConstDecl) IDENT:name EQUAL NUMBER:val
+		|
+			(CharConstDecl) IDENT:name EQUAL CHARCONST:val
+		|
+			(BoolConstDecl) IDENT:name EQUAL BOOLCONST:val
+		;
+
+VarDecl ::= (VarDeclaration) Type:varType VarList SEMI
+		|
+		   (ErrorStmt) Type error SEMI
+		  
+		;
+
+VarList ::= (MultipleVarList) VarList COMMA VarAssign
+		|
+			(ErrorV) error COMMA VarAssign
+		|
+			(OneVarList) VarAssign
+		;
+
+VarAssign ::= (VarAssign) IDENT:vname SqrBrackets;
+
+SqrBrackets ::= (SqrBrackets) LSQRBRACK RSQRBRACK
+		| 
+			(NoSqrBrackets) /*epsilon*/
+		;
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
+				   |
+				   (NoMethodDecl) /*epsilon*/
+				   ;
+				   					
+MethodDecl ::= (MethodDecl) MethodType LPAREN FormParsDecl RPAREN VarDeclOption LBRACE StatementDeclList RBRACE;
+               
+VarDeclOption ::= (YesVarDecMul) VarDeclOption VarDecl
+			  |   
+			  (NoVarDec) /*epsilon*/
+			  ;
+			  
+MethodType ::= (NonVoidType) Type IDENT:tname
+			| 
+			   (VoidType) VOID IDENT:vname
+			;
+
+FormParsDecl ::= (FormParsDeclMul) FormParsDecl COMMA FormAssign
+			|
+			 	(FormParsDecOne) FormAssign
+			|
+			    (NoFormPars) /*epsilon*/
+			 ;
+			 	
+FormAssign ::= (FormAssign) Type IDENT:fname SqrBrackets;
+
+StatementDeclList ::= (StatementDeclListt) StatementDeclList Statement
+					|
+						(NoStatementDecl) /*epsilon*/ 
+					;   
+
+Statement ::= (DesignatorStmt) DesignatorStatement SEMI
+			  |	
+			  	(ErrorDesignatorStmt) error SEMI
+			  | 
+			  	 (ReadStmt)	READ LPAREN Designator RPAREN SEMI
+			  |
+			  	 (PrintStmt) PRINT LPAREN Expr NumConst RPAREN SEMI
+			  |
+			    (ReturnStmt) RETURN ExprDetails SEMI
+			  |
+			  	(FindStmt) Designator:prviDesign EQUAL Designator:drugiDesign DOT FINDANY LPAREN Expr RPAREN SEMI
+			  ;
+
+NumConst ::= (NumConstt) COMMA NUMBER:numb
+		 |
+		 	(NoNumConstt) /*epsilon*/
+		 ;
+
+Expr ::= (ExprMinus) MINUS Term
+	   |
+	   	 (ExprAddop) Expr Addop Term
+	   |
+	   	(ExprSingleTerm) Term
+	   	;
+		
+		  
+Term ::= (TermMulop) Term Mulop Factor
+	  |
+	  	(TermSingleFactor) Factor ;
+	  	
+				 
+Mulop ::= (MulopMul) MUL
+	   |
+	   	  (MulopDiv) DIV
+	    |
+	      (MulopMod) MOD
+	   	;
+	   	
+	
+Addop ::= (AddopPlus) PLUS
+	  |
+	  	 (AddopMinus) MINUS
+	  
+	  ; 
+	  
+Factor ::= (NumFactor) NUMBER:value
+		|
+		 (CharFactor) CHARCONST:value
+		|
+		 (ExprFactor) LPAREN Expr:value RPAREN 
+		|
+		 (BoolFactor) BOOLCONST:value
+	    |
+	     (NewFactor) NEW Type:t LSQRBRACK Expr:value RSQRBRACK
+	    |
+	     (DesignatorFactor) Designator:value
+	    ;
+	    
+DesignatorStatement ::= (ExprDesignatorStmt) Designator:designator EQUAL Expr:expression
+					|
+					   (IncDesignatorStmt) Designator INC
+					|
+					   (DecDesignatorStmt) Designator DEC
+					;
+ 				 
+Designator ::= (DesignatorDecl) DesignatorArray LSQRBRACK Expr:exprname RSQRBRACK
+			|  
+			   (DesignatorNoExprReg) IDENT:name
+			|
+			   (DesignatorNoExprNmSpc) IDENT:namespaceT DOUBLECOLON IDENT:nameType
+			;
+			
+DesignatorArray ::= (DesignatorArray) Designator;
+ 				 
+Type ::= (RegularType) IDENT:nameT 
+	  |
+	  	 (NamespaceType) IDENT:nameT DOUBLECOLON IDENT:nameType
+	  ;
+	  
+ExprDetails ::= (ExprDet) Expr
+            |
+                (NoExprEDet) /*epsilon*/
+                ;

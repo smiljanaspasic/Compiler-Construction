@@ -1,0 +1,23 @@
+ program nekiprogram 
+
+ 
+ const bool c=false,d=true;
+ int g[];
+ int m;
+ int s[],,,k;
+ char m/s;
+ int m;
+ const char character='s';
+ { 
+ int main() {
+ 						c++; b--; d--;
+ 						[a,b]=p;
+ 						a=+3;
+ 						g[[]];
+ 						a=true;
+ 						b='c';
+ 						a=(-'8');
+ 						a=true;
+ 						z=false;
+ }
+}

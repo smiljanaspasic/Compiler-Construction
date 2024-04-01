@@ -1,0 +1,14 @@
+INFO  04:41:49,033 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  04:41:49,040 - #2 program
+INFO  04:41:49,040 - #15 nekiprogram
+INFO  04:41:49,040 - #3 {
+INFO  04:41:49,041 - #4 }
+INFO  04:41:49,041 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  NoDeclList(
+  ) [NoDeclList]
+) [Program]
+INFO  04:41:49,041 - ===================================
+INFO  04:41:49,042 -  Deklarisanih promenljivih ima = 0

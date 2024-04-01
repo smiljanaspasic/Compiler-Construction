@@ -1,0 +1,65 @@
+INFO  05:08:58,742 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  05:08:58,750 - #2 program
+INFO  05:08:58,750 - #15 nekiprogram
+INFO  05:08:58,750 - #24 const
+INFO  05:08:58,751 - #15 bool
+INFO  05:08:58,751 - #15 c
+INFO  05:08:58,752 - #12 =
+INFO  05:08:58,752 - #27 false
+INFO  05:08:58,752 - #8 ,
+INFO  05:08:58,752 - #15 d
+INFO  05:08:58,753 - #12 =
+INFO  05:08:58,753 - #27 true
+INFO  05:08:58,753 - #5 ;
+INFO  05:08:58,753 - #15 int
+INFO  05:08:58,753 - #15 g
+INFO  05:08:58,753 - #31 [
+INFO  05:08:58,753 - #30 ]
+INFO  05:08:58,753 - #5 ;
+INFO  05:08:58,754 - #3 {
+INFO  05:08:58,754 - #4 }
+INFO  05:08:58,755 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  DeclListVar(
+    DeclListConst(
+      NoDeclList(
+      ) [NoDeclList]
+      ConstsDeclNext(
+        Type(
+         bool
+        ) [Type]
+        MultipleConstList(
+          OneConstList(
+            ConstAssign(
+             c
+              BoolConstDecl(
+              ) [BoolConstDecl]
+            ) [ConstAssign]
+          ) [OneConstList]
+          ConstAssign(
+           d
+            BoolConstDecl(
+            ) [BoolConstDecl]
+          ) [ConstAssign]
+        ) [MultipleConstList]
+      ) [ConstsDeclNext]
+    ) [DeclListConst]
+    VarDecl(
+      Type(
+       int
+      ) [Type]
+      OneVarList(
+        VarAssign(
+         g
+          VarNext(
+          ) [VarNext]
+        ) [VarAssign]
+      ) [OneVarList]
+    ) [VarDecl]
+  ) [DeclListVar]
+) [Program]
+INFO  05:08:58,767 - ===================================
+INFO  05:08:58,768 -  Deklarisanih promenljivih ima = 1
+INFO  05:08:58,768 -  Deklarisanih konstanti ima = 2

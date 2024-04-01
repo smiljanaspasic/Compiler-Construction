@@ -1,0 +1,37 @@
+INFO  09:36:44,445 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  09:36:44,461 - #2 program
+INFO  09:36:44,461 - #15 nekiprogram
+INFO  09:36:44,461 - #24 const
+INFO  09:36:44,462 - #15 bool
+INFO  09:36:44,462 - #15 c
+INFO  09:36:44,462 - #12 =
+INFO  09:36:44,462 - #27 false
+INFO  09:36:44,462 - #8 ,
+INFO  09:36:44,463 - #15 d
+INFO  09:36:44,463 - #12 =
+INFO  09:36:44,463 - #27 true
+INFO  09:36:44,463 - #5 ;
+INFO  09:36:44,463 - #15 int
+INFO  09:36:44,464 - #15 g
+INFO  09:36:44,464 - #31 [
+INFO  09:36:44,464 - #30 ]
+INFO  09:36:44,464 - #5 ;
+INFO  09:36:44,465 - #24 const
+INFO  09:36:44,465 - #15 char
+INFO  09:36:44,465 - #15 character
+INFO  09:36:44,465 - #12 =
+INFO  09:36:44,465 - #28 s
+INFO  09:36:44,467 - #5 ;
+INFO  09:36:44,467 - #3 {
+INFO  09:36:44,467 - #15 int
+INFO  09:36:44,468 - #15 fun
+INFO  09:36:44,468 - #6 (
+INFO  09:36:44,468 - #7 )
+INFO  09:36:44,468 - #15 int
+INFO  09:36:44,468 - #15 i
+INFO  09:36:44,468 - #31 [
+INFO  09:36:44,468 - #30 ]
+INFO  09:36:44,468 - #3 {
+ERROR 09:36:44,468 - 
+Sintaksna greska na liniji 7
+ERROR 09:36:44,469 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

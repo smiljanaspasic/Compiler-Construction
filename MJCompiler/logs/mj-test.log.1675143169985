@@ -1,0 +1,12 @@
+INFO  06:32:37,799 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  06:32:37,812 - #2 program
+INFO  06:32:37,812 - #15 mojProgram
+INFO  06:32:37,812 - #15 bool
+INFO  06:32:37,813 - #15 c
+INFO  06:32:37,813 - #5 ;
+INFO  06:32:37,813 - #3 {
+INFO  06:32:37,814 - #4 }
+ERROR 06:32:37,818 - Nije pronadjen tip bool u tabeli simbola
+INFO  06:32:37,818 - Deklarisana promenljiva c na liniji 1
+INFO  06:32:37,818 - Print calls = 0
+ERROR 06:32:37,819 - Parsiranje NIJE uspesno zavrseno!

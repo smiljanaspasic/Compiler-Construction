@@ -1,0 +1,42 @@
+INFO  05:04:35,751 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  05:04:35,759 - #2 program
+INFO  05:04:35,759 - #15 nekiprogram
+INFO  05:04:35,759 - #15 char
+INFO  05:04:35,760 - #15 c
+INFO  05:04:35,760 - #8 ,
+INFO  05:04:35,761 - #15 b
+INFO  05:04:35,761 - #31 [
+INFO  05:04:35,761 - #30 ]
+INFO  05:04:35,761 - #5 ;
+INFO  05:04:35,761 - #3 {
+INFO  05:04:35,762 - #4 }
+INFO  05:04:35,763 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  DeclListVar(
+    NoDeclList(
+    ) [NoDeclList]
+    VarDecl(
+      Type(
+       char
+      ) [Type]
+      MultipleVarList(
+        OneVarList(
+          VarAssign(
+           c
+            NoVarNext(
+            ) [NoVarNext]
+          ) [VarAssign]
+        ) [OneVarList]
+        VarAssign(
+         b
+          VarNext(
+          ) [VarNext]
+        ) [VarAssign]
+      ) [MultipleVarList]
+    ) [VarDecl]
+  ) [DeclListVar]
+) [Program]
+INFO  05:04:35,764 - ===================================
+INFO  05:04:35,764 -  Deklarisanih promenljivih ima = 2

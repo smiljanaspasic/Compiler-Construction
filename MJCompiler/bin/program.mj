@@ -1,0 +1,25 @@
+program nekiprogram
+ const bool c=false,d=true;
+ int g[];
+ int m;
+ bool kk;
+ const char character='s';
+ { 
+ 
+ void main() 
+ 	int ca;
+ 	int ba;
+ 	{
+ 	ca=3;
+ 	ba=4;
+ 	ca--;
+ 	ba++;
+ 	read(m);
+ 	print(m);
+ 	print(c);
+ 	print(character);
+ 	print('s');
+ 	 }
+ }
+ 
+ 

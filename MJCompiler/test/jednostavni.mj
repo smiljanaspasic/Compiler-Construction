@@ -1,0 +1,31 @@
+program nekiprogram
+ const bool c=false,d=true;
+ int g[];
+ int m;
+ bool kk,pp;
+ const char character='s';
+ { 
+ 
+ void main() 
+ 	int ab;
+ 	char bb;
+ 	bool cb;
+ 	{
+ 	
+ 						
+ 						print(d);
+ 						ab=-5;
+ 						print(ab);
+ 						ab=(-2*8*4);
+ 						cb=true;
+ 						g=new int[12-2];
+ 						g[3]=4;
+ 						kk=g.findAny(4);
+ 						pp=g.findAny(2);
+ 						print(kk);
+ 						print(pp);
+ 						g[4/2 % 9]=6;
+ 	 }
+ }
+ 
+ 

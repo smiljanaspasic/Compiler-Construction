@@ -1,0 +1,23 @@
+INFO  17:54:06,418 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  17:54:06,441 - #2 program
+INFO  17:54:06,441 - #15 nekiprogram
+INFO  17:54:06,441 - #24 const
+INFO  17:54:06,442 - #15 bool
+INFO  17:54:06,442 - #15 c
+INFO  17:54:06,443 - #12 =
+INFO  17:54:06,443 - #27 false
+INFO  17:54:06,443 - #8 ,
+INFO  17:54:06,444 - #15 d
+INFO  17:54:06,444 - #12 =
+INFO  17:54:06,444 - #27 true
+INFO  17:54:06,445 - #5 ;
+INFO  17:54:06,445 - #15 int
+INFO  17:54:06,445 - #15 g
+INFO  17:54:06,445 - #31 [
+INFO  17:54:06,445 - #30 ]
+INFO  17:54:06,445 - #5 ;
+INFO  17:54:06,447 - #15 int
+INFO  17:54:06,447 - #8 ,
+ERROR 17:54:06,447 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 4
+ERROR 17:54:06,447 - Fatalna greska, parsiranje se ne moze nastavitiizvrsen je oporavak od greske na liniji 4

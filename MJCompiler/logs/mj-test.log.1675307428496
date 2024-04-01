@@ -1,0 +1,13 @@
+INFO  04:08:07,015 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  04:08:07,019 - #15 program
+INFO  04:08:07,019 - #15 Program
+INFO  04:08:07,019 - #24 const
+INFO  04:08:07,019 - #15 int
+INFO  04:08:07,019 - #15 glob_const_1
+INFO  04:08:07,019 - #12 =
+INFO  04:08:07,019 - #14 1
+INFO  04:08:07,019 - #8 ,
+INFO  04:08:07,019 - #15 glob_const_2
+INFO  04:08:07,019 - #12 =
+INFO  04:08:07,019 - #14 2
+INFO  04:08:07,020 - #5 ;

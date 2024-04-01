@@ -1,0 +1,11 @@
+INFO  22:35:56,847 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\jednostavni.mj
+INFO  22:35:56,852 - #13 void
+INFO  22:35:56,852 - #17 main
+INFO  22:35:56,852 - #6 (
+INFO  22:35:56,852 - #7 )
+INFO  22:35:56,852 - #3 {
+INFO  22:35:56,852 - #444 findAny
+INFO  22:35:56,852 - #6 (
+INFO  22:35:56,853 - #16 4
+INFO  22:35:56,853 - #7 )
+INFO  22:35:56,853 - #4 }

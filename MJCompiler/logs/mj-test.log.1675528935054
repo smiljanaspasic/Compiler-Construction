@@ -1,0 +1,30 @@
+INFO  17:40:20,734 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  17:40:20,769 - #2 program
+INFO  17:40:20,769 - #15 nekiprogram
+INFO  17:40:20,770 - #24 const
+INFO  17:40:20,771 - #15 bool
+INFO  17:40:20,771 - #15 c
+INFO  17:40:20,772 - #12 =
+INFO  17:40:20,772 - #27 false
+INFO  17:40:20,772 - #8 ,
+INFO  17:40:20,774 - #15 d
+INFO  17:40:20,774 - #12 =
+INFO  17:40:20,774 - #27 true
+INFO  17:40:20,774 - #5 ;
+INFO  17:40:20,775 - #15 int
+INFO  17:40:20,777 - #15 g
+INFO  17:40:20,777 - #31 [
+INFO  17:40:20,777 - #30 ]
+INFO  17:40:20,778 - #5 ;
+INFO  17:40:20,780 - #15 int
+INFO  17:40:20,781 - #15 g
+INFO  17:40:20,781 - #31 [
+INFO  17:40:20,781 - #31 [
+ERROR 17:40:20,781 - 
+Sintaksna greska na liniji 4
+INFO  17:40:20,831 - #30 ]
+INFO  17:40:20,831 - #30 ]
+INFO  17:40:20,831 - #5 ;
+INFO  17:40:20,832 - #24 const
+INFO  17:40:20,832 - #15 char
+INFO  17:40:20,832 - #15 character

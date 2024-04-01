@@ -1,0 +1,12 @@
+INFO  06:32:16,764 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  06:32:16,776 - #2 program
+INFO  06:32:16,776 - #15 mojProgram
+INFO  06:32:16,776 - #15 boolean
+INFO  06:32:16,777 - #15 c
+INFO  06:32:16,777 - #12 =
+ERROR 06:32:16,778 - 
+Sintaksna greska na liniji 1
+ERROR 06:32:16,778 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 1
+ERROR 06:32:16,781 - Nije pronadjen tip boolean u tabeli simbola
+INFO  06:32:16,781 - Print calls = 0
+ERROR 06:32:16,782 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,7 @@
+INFO  04:11:57,854 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\neuspesan_primer.mj
+INFO  04:11:57,875 - #2 program
+INFO  04:11:57,875 - #17 nekiprogram
+INFO  04:11:57,875 - #13 void
+ERROR 04:11:57,875 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 2
+ERROR 04:11:57,875 - Fatalna greska, parsiranje se ne moze nastavitiizvrsen je oporavak od greske na liniji 2

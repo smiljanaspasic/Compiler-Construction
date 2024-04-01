@@ -1,0 +1,32 @@
+INFO  08:33:00,256 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  08:33:00,704 - #2 program
+INFO  08:33:00,704 - #15 nekiprogram
+INFO  08:33:00,704 - #24 const
+INFO  08:33:00,705 - #15 bool
+INFO  08:33:00,705 - #15 c
+INFO  08:33:00,706 - #12 =
+INFO  08:33:00,706 - #27 false
+INFO  08:33:00,706 - #8 ,
+INFO  08:33:00,706 - #15 d
+INFO  08:33:00,706 - #12 =
+INFO  08:33:00,707 - #27 true
+INFO  08:33:00,707 - #5 ;
+INFO  08:33:00,707 - #15 int
+INFO  08:33:00,707 - #15 g
+INFO  08:33:00,707 - #31 [
+INFO  08:33:00,707 - #30 ]
+INFO  08:33:00,707 - #5 ;
+INFO  08:33:00,711 - #24 const
+INFO  08:33:00,712 - #15 char
+INFO  08:33:00,712 - #15 character
+INFO  08:33:00,712 - #12 =
+INFO  08:33:00,712 - #28 s
+INFO  08:33:00,713 - #5 ;
+INFO  08:33:00,713 - #3 {
+INFO  08:33:00,713 - #15 void
+INFO  08:33:00,713 - #15 main
+INFO  08:33:00,714 - #6 (
+INFO  08:33:00,714 - #7 )
+ERROR 08:33:00,714 - 
+Sintaksna greska na liniji 6
+ERROR 08:33:00,714 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

@@ -1,0 +1,12 @@
+INFO  06:26:48,794 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  06:26:48,807 - #2 program
+INFO  06:26:48,807 - #15 mojProgram
+INFO  06:26:48,807 - #3 {
+INFO  06:26:48,808 - #15 int
+INFO  06:26:48,809 - #15 a
+INFO  06:26:48,809 - #5 ;
+ERROR 06:26:48,810 - 
+Sintaksna greska na liniji 2
+ERROR 06:26:48,810 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2
+INFO  06:26:48,813 - Print calls = 0
+ERROR 06:26:48,814 - Parsiranje NIJE uspesno zavrseno!

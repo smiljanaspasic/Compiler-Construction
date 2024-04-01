@@ -1,0 +1,276 @@
+INFO  20:20:51,130 - Compiling source file: C:\PP1 domaci\workspace\MJCompiler\test\program.mj
+INFO  20:20:51,159 - #2 program
+INFO  20:20:51,159 - #17 nekiprogram
+INFO  20:20:51,159 - #26 const
+INFO  20:20:51,160 - #17 bool
+INFO  20:20:51,160 - #17 c
+INFO  20:20:51,160 - #12 =
+INFO  20:20:51,161 - #14 false
+INFO  20:20:51,161 - #8 ,
+INFO  20:20:51,161 - #17 d
+INFO  20:20:51,161 - #12 =
+INFO  20:20:51,161 - #14 true
+INFO  20:20:51,161 - #5 ;
+INFO  20:20:51,161 - #17 int
+INFO  20:20:51,161 - #17 g
+INFO  20:20:51,161 - #32 [
+INFO  20:20:51,161 - #31 ]
+INFO  20:20:51,161 - #5 ;
+INFO  20:20:51,162 - #17 int
+INFO  20:20:51,163 - #17 m
+INFO  20:20:51,163 - #5 ;
+INFO  20:20:51,163 - #17 bool
+INFO  20:20:51,163 - #17 kk
+INFO  20:20:52,259 - #5 ;
+INFO  20:20:52,259 - #26 const
+INFO  20:20:52,259 - #17 char
+INFO  20:20:52,259 - #17 character
+INFO  20:20:52,259 - #12 =
+INFO  20:20:52,259 - #15 s
+INFO  20:20:52,259 - #5 ;
+INFO  20:20:52,259 - #3 {
+INFO  20:20:52,259 - #13 void
+INFO  20:20:52,260 - #17 main
+INFO  20:20:52,260 - #6 (
+INFO  20:20:52,260 - #7 )
+INFO  20:20:52,261 - #3 {
+INFO  20:20:52,262 - #17 inc
+INFO  20:20:52,262 - #17 ca
+ERROR 20:20:52,262 - 
+Sintaksna greska,izvrsen je oporavak od greske na liniji 10
+INFO  20:20:52,262 - #12 =
+INFO  20:20:52,262 - #16 4
+INFO  20:20:52,262 - #5 ;
+INFO  20:20:52,263 - #17 int
+INFO  20:20:52,263 - #17 ba
+INFO  20:20:52,263 - #12 =
+INFO  20:20:52,263 - #16 3
+INFO  20:20:52,263 - #5 ;
+INFO  20:20:52,263 - #3 {
+INFO  20:20:52,264 - #17 ca
+INFO  20:20:52,264 - #36 --
+INFO  20:20:52,264 - #5 ;
+INFO  20:20:52,264 - #17 ba
+INFO  20:20:52,264 - #35 ++
+INFO  20:20:52,264 - #5 ;
+INFO  20:20:52,294 - #20 read
+INFO  20:20:52,294 - #6 (
+INFO  20:20:52,294 - #17 m
+INFO  20:20:52,294 - #7 )
+INFO  20:20:52,295 - #5 ;
+INFO  20:20:52,295 - #9 print
+INFO  20:20:52,295 - #6 (
+INFO  20:20:52,295 - #17 m
+INFO  20:20:52,295 - #7 )
+INFO  20:20:52,296 - #5 ;
+INFO  20:20:52,296 - #9 print
+INFO  20:20:52,296 - #6 (
+INFO  20:20:52,296 - #17 c
+INFO  20:20:52,296 - #7 )
+INFO  20:20:52,296 - #5 ;
+INFO  20:20:52,296 - #9 print
+INFO  20:20:52,296 - #6 (
+INFO  20:20:52,296 - #17 character
+INFO  20:20:52,296 - #7 )
+INFO  20:20:52,296 - #5 ;
+INFO  20:20:52,296 - #9 print
+INFO  20:20:52,296 - #6 (
+INFO  20:20:52,297 - #15 s
+INFO  20:20:52,297 - #7 )
+INFO  20:20:52,297 - #5 ;
+INFO  20:20:52,297 - #4 }
+INFO  20:20:52,297 - #4 }
+INFO  20:20:52,298 - Program(
+  ProgName(
+   nekiprogram
+  ) [ProgName]
+  DeclListConst(
+    DeclListVar(
+      DeclListVar(
+        DeclListVar(
+          DeclListConst(
+            NoDeclList(
+            ) [NoDeclList]
+            ConstsDeclNext(
+              Type(
+               bool
+              ) [Type]
+              MultipleConstList(
+                OneConstList(
+                  BoolConstDecl(
+                   c
+                   false
+                  ) [BoolConstDecl]
+                ) [OneConstList]
+                BoolConstDecl(
+                 d
+                 true
+                ) [BoolConstDecl]
+              ) [MultipleConstList]
+            ) [ConstsDeclNext]
+          ) [DeclListConst]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            OneVarList(
+              VarAssign(
+               g
+                SqrBrackets(
+                ) [SqrBrackets]
+              ) [VarAssign]
+            ) [OneVarList]
+          ) [VarDeclaration]
+        ) [DeclListVar]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          OneVarList(
+            VarAssign(
+             m
+              NoSqrBrackets(
+              ) [NoSqrBrackets]
+            ) [VarAssign]
+          ) [OneVarList]
+        ) [VarDeclaration]
+      ) [DeclListVar]
+      VarDeclaration(
+        Type(
+         bool
+        ) [Type]
+        OneVarList(
+          VarAssign(
+           kk
+            NoSqrBrackets(
+            ) [NoSqrBrackets]
+          ) [VarAssign]
+        ) [OneVarList]
+      ) [VarDeclaration]
+    ) [DeclListVar]
+    ConstsDeclNext(
+      Type(
+       char
+      ) [Type]
+      OneConstList(
+        CharConstDecl(
+         character
+         s
+        ) [CharConstDecl]
+      ) [OneConstList]
+    ) [ConstsDeclNext]
+  ) [DeclListConst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      VoidType(
+       main
+      ) [VoidType]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDec(
+      ) [NoVarDec]
+      StatementDeclListt(
+        StatementDeclListt(
+          StatementDeclListt(
+            StatementDeclListt(
+              StatementDeclListt(
+                StatementDeclListt(
+                  StatementDeclListt(
+                    NoStatementDecl(
+                    ) [NoStatementDecl]
+                    ErrorDesignatorStmt(
+                    ) [ErrorDesignatorStmt]
+                  ) [StatementDeclListt]
+                  DesignatorStmt(
+                    IncDesignatorStmt(
+                      DesignatorNoExpr(
+                       ba
+                      ) [DesignatorNoExpr]
+                    ) [IncDesignatorStmt]
+                  ) [DesignatorStmt]
+                ) [StatementDeclListt]
+                ReadStmt(
+                  DesignatorNoExpr(
+                   m
+                  ) [DesignatorNoExpr]
+                ) [ReadStmt]
+              ) [StatementDeclListt]
+              PrintStmt(
+                ExprSingleTerm(
+                  TermSingleFactor(
+                    DesignatorFactor(
+                      DesignatorNoExpr(
+                       m
+                      ) [DesignatorNoExpr]
+                    ) [DesignatorFactor]
+                  ) [TermSingleFactor]
+                ) [ExprSingleTerm]
+                NoNumConstt(
+                ) [NoNumConstt]
+              ) [PrintStmt]
+            ) [StatementDeclListt]
+            PrintStmt(
+              ExprSingleTerm(
+                TermSingleFactor(
+                  DesignatorFactor(
+                    DesignatorNoExpr(
+                     c
+                    ) [DesignatorNoExpr]
+                  ) [DesignatorFactor]
+                ) [TermSingleFactor]
+              ) [ExprSingleTerm]
+              NoNumConstt(
+              ) [NoNumConstt]
+            ) [PrintStmt]
+          ) [StatementDeclListt]
+          PrintStmt(
+            ExprSingleTerm(
+              TermSingleFactor(
+                DesignatorFactor(
+                  DesignatorNoExpr(
+                   character
+                  ) [DesignatorNoExpr]
+                ) [DesignatorFactor]
+              ) [TermSingleFactor]
+            ) [ExprSingleTerm]
+            NoNumConstt(
+            ) [NoNumConstt]
+          ) [PrintStmt]
+        ) [StatementDeclListt]
+        PrintStmt(
+          ExprSingleTerm(
+            TermSingleFactor(
+              CharFactor(
+               s
+              ) [CharFactor]
+            ) [TermSingleFactor]
+          ) [ExprSingleTerm]
+          NoNumConstt(
+          ) [NoNumConstt]
+        ) [PrintStmt]
+      ) [StatementDeclListt]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:20:52,299 - ===================================
+INFO  20:20:52,304 - Nadjena logicka(bool) konstanta c na liniji 2
+INFO  20:20:52,304 - Nadjena logicka(bool) konstanta d na liniji 2
+INFO  20:20:52,304 - Nadjena globalna varijabla g na liniji 3
+INFO  20:20:52,304 - Nadjena globalna varijabla m na liniji 4
+INFO  20:20:52,304 - Nadjena globalna varijabla kk na liniji 5
+INFO  20:20:52,304 - Nadjena karakterna(char) konstanta character na liniji 6
+INFO  20:20:52,304 - Nadjena funkcija main na liniji 9
+ERROR 20:20:52,304 - Greska na liniji 14 : ime ba nije deklarisano! 
+INFO  20:20:52,304 - Pristup promenljivoj noObj na liniji 14
+ERROR 20:20:52,304 - Greska na liniji 14 : nekompatibilni tipovi,ne moze se inkrementirati nesto sto nije int 
+INFO  20:20:52,304 - Pristup promenljivoj m na liniji 15
+INFO  20:20:52,304 - Pristup promenljivoj m na liniji 16
+INFO  20:20:52,305 - Pristup konstanti c na liniji 17
+INFO  20:20:52,305 - Pristup konstanti character na liniji 18
+INFO  20:20:52,305 - ===================================
+INFO  20:20:52,305 -  Deklarisanih globalnih promenljivih ima = 3
+INFO  20:20:52,305 -  Deklarisanih lokalnih promenljivih ima = 0
+INFO  20:20:52,305 -  Deklarisanih simbolickih konstanti ima = 3
+ERROR 20:20:52,307 - Parsiranje NIJE uspesno zavrseno!
